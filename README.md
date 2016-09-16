@@ -4,7 +4,6 @@
 # tfk-generate-jwt
 Generate jwt-token
 
-
 ## Installation
 
 ```sh
@@ -13,7 +12,7 @@ $ npm i tfk-generate-jwt
 
 ## Usage
 
-```javascript
+```JavaScript
 const generateToken = require('tfk-generate-jwt')
 const secret = 'NeverShareYourSecret'
 const payload = {
