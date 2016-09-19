@@ -15,5 +15,7 @@ module.exports = options => {
     throw new Error('Missing required input: options.payload')
   }
 
-  return jwt.sign(options.payload, options.key)
+  const opts = options.options || {}
+
+  return jwt.sign(options.payload, options.key, opts)
 }

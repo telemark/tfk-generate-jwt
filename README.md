@@ -19,9 +19,20 @@ const payload = {
   name: 'zrrrzt',
   description: 'general nice guy'
 }
-const token = generateToken({key: secret, payload: payload})
+const options = {
+  expiresIn: '1h',
+  issuer: 'https://auth.t-fk.no'
+}
+const token = generateToken({key: secret, payload: payload, options: options})
 
 console.log(token)
+
+//Options are optional
+
+const tokenWithoutOptions = generateToken({key: secret, payload: payload})
+
+console.log(tokenWithoutOptions)
+
 ```
 
 ## License
