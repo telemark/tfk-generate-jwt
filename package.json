@@ -1,7 +1,7 @@
 {
   "name": "tfk-generate-jwt",
   "description": "Generate jwt-token",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/telemark/tfk-generate-jwt",
   "engines": {
-    "node": ">=4.6.2"
+    "node": ">=4.7.0"
   },
   "main": "index.js",
   "scripts": {
