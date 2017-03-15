@@ -1,7 +1,7 @@
 {
   "name": "tfk-generate-jwt",
   "description": "Generate jwt-token",
-  "version": "1.0.16",
+  "version": "",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
