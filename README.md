@@ -39,4 +39,5 @@ console.log(tokenWithoutOptions)
 ```
 
 ## License
+
 [MIT](LICENSE)
