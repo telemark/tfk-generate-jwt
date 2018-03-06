@@ -17,30 +17,30 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/tfk-generate-jwt.git"
+    "url": "git+https://github.com/telemark/tfk-generate-jwt.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/tfk-generate-jwt/issues"
+    "url": "https://github.com/telemark/tfk-generate-jwt/issues"
   },
-  "homepage": "https://github.com/telemark/tfk-generate-jwt",
+  "homepage": "https://github.com/telemark/tfk-generate-jwt#readme",
   "engines": {
-    "node": ">=4.7.0"
+    "node": ">=8.9.4"
   },
   "main": "index.js",
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install && node setup.js",
-    "standard-fix": "standard --fix"
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "devDependencies": {
-    "standard": "10.0.2",
-    "coveralls": "2.13.1",
-    "nsp": "2.6.3",
-    "tap": "10.3.1"
+    "standard": "11.0.0",
+    "coveralls": "3.0.0",
+    "nsp": "3.2.1",
+    "tap": "11.1.1"
   },
   "dependencies": {
-    "jsonwebtoken": "7.4.1"
+    "jsonwebtoken": "8.2.0"
   }
 }
