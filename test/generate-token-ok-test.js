@@ -14,8 +14,8 @@ const options = {
 }
 const expected = jwt.sign(payload, secret)
 const expectedWithOptions = jwt.sign(payload, secret, options)
-const token = generateToken({key: secret, payload: payload})
-const tokenWithOptions = generateToken({key: secret, payload: payload, options: options})
+const token = generateToken({ key: secret, payload: payload })
+const tokenWithOptions = generateToken({ key: secret, payload: payload, options: options })
 
 tap.equal(expected, token, 'Generates expected token')
 
