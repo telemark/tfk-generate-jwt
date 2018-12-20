@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/telemark/tfk-generate-jwt.svg?branch=master)](https://travis-ci.org/telemark/tfk-generate-jwt)
 [![Coverage Status](https://coveralls.io/repos/telemark/tfk-generate-jwt/badge.svg?branch=master&service=github)](https://coveralls.io/github/telemark/tfk-generate-jwt?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-generate-jwt.svg)](https://greenkeeper.io/)
 
 # tfk-generate-jwt
 
