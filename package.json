@@ -40,6 +40,6 @@
     "tap": "12.6.0"
   },
   "dependencies": {
-    "jsonwebtoken": "8.5.0"
+    "jsonwebtoken": "8.5.1"
   }
 }
